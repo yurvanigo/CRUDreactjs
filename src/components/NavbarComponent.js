@@ -24,12 +24,12 @@ const NavbarComponent = (props) => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="/components/">Order</NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink href="https://github.com/yurvanigo/CRUDreactjs">
-                  About US
+                  AboutUs
                 </NavLink>
               </NavItem>
             </Nav>

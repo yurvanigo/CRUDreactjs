@@ -38,9 +38,9 @@ class EditStocksContainer extends Component {
           this.props.getResponseDataSparepart.name +
           ", Brand : " +
           this.props.getResponseDataSparepart.brand +
-          "price : " +
+          ", Price : " +
           this.props.getResponseDataSparepart.price +
-          ", size " +
+          ", Size " +
           this.props.getResponseDataSparepart.size +
           "",
         "success"

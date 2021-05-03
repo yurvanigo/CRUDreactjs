@@ -13,10 +13,8 @@ class DetailStocksContainer extends Component {
     return (
       <Container>
         <BackComponent />
-        <div>
-          Detail Sparepart
-          <DetailSparepartComponent />
-        </div>
+        <h1>DETAIL SPAREPART</h1>
+        <DetailSparepartComponent />
       </Container>
     );
   }
